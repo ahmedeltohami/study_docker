@@ -44,11 +44,11 @@
            depends_on:
              - db
 
-       db:
-         image: mysql:5.7
-         environment:
-           MYSQL_ROOT_PASSWORD: rootpass
-           MYSQL_DATABASE: mydb
+         db:
+           image: mysql:5.7
+           environment:
+             MYSQL_ROOT_PASSWORD: rootpass
+             MYSQL_DATABASE: mydb
 
 
 🔧 ثانياً: الخطوات اللي نفذناها
